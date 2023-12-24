@@ -1,0 +1,34 @@
+{
+  "name": "crypto-advanced-storage",
+  "version": "2.1.0",
+  "description": "Web crypto utility for Encrypting/Decrypting datas within the local and session storage using AES",
+  "main": "public-api.ts",
+  "scripts": {
+    "test": "src/test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/debascoguy/crypto-advanced-storage.git"
+  },
+  "keywords": [
+    "Crypto",
+    "AES",
+    "sessionStorage",
+    "localStorage"
+  ],
+  "author": "Ademola Aina",
+  "license": "SEE LICENSE IN bs3-license.txt",
+  "bugs": {
+    "url": "https://github.com/debascoguy/crypto-advanced-storage/issues"
+  },
+  "homepage": "https://github.com/debascoguy/crypto-advanced-storage#readme",
+  "peerDependencies": {
+    "@angular/common": "^17.0.0",
+    "@angular/core": "^17.0.0",
+    "crypto-ts": "^1.0.2"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "devDependencies": {}
+}
