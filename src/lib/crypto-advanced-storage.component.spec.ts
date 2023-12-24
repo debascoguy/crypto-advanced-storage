@@ -8,12 +8,10 @@ describe('CryptoAdvancedStorageComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CryptoAdvancedStorageComponent ]
+      imports: [CryptoAdvancedStorageComponent]
     })
     .compileComponents();
-  });
-
-  beforeEach(() => {
+    
     fixture = TestBed.createComponent(CryptoAdvancedStorageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

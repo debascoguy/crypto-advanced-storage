@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
-import { CryptoAdvancedStorageComponent } from './crypto-advanced-storage.component';
 import { AESEncryptionService } from '../services/AESEncryption';
 import { AdvancedLocalStorage } from '../services/AdvancedLocalStorage';
 import { AdvancedSessionStorage} from '../services/AdvancedSessionStorage';
+import { CryptoAdvancedStorageComponent } from './crypto-advanced-storage.component';
 
 export { AdvancedLocalStorage } from '../services/AdvancedLocalStorage';
 export { AdvancedSessionStorage } from '../services/AdvancedSessionStorage';
@@ -14,8 +14,7 @@ export var advancedLocalStorage: AdvancedLocalStorage = new AdvancedLocalStorage
 
 @NgModule({
   declarations: [CryptoAdvancedStorageComponent],
-  imports: [
-  ],
+  imports: [],
   exports: [CryptoAdvancedStorageComponent],
   providers:[
     AESEncryptionService,

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'lib-crypto-advanced-storage',
@@ -7,14 +7,8 @@ import { Component, OnInit } from '@angular/core';
       crypto-advanced-storage works!
     </p>
   `,
-  styles: [
-  ]
+  styles: ``
 })
-export class CryptoAdvancedStorageComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class CryptoAdvancedStorageComponent {
 
 }

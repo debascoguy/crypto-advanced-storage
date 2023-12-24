@@ -1,6 +1,6 @@
 {
   "name": "crypto-advanced-storage",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "Web crypto utility for Encrypting/Decrypting datas within the local and session storage using AES",
   "main": "public-api.ts",
   "scripts": {
@@ -28,7 +28,10 @@
     "crypto-ts": "^1.0.2"
   },
   "dependencies": {
-    "tslib": "^2.0.0"
+    "tslib": "^2.3.0"
   },
-  "devDependencies": {}
+  "sideEffects": false,
+  "devDependencies": {
+    "crypto-ts": "^1.0.2"
+  }
 }
